@@ -268,14 +268,14 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 var routes = [
-    { path: 'dashboard', component: __WEBPACK_IMPORTED_MODULE_4__dashboard_dashboard_component__["a" /* DashboardComponent */] },
-    { path: 'user-profile', component: __WEBPACK_IMPORTED_MODULE_5__user_profile_user_profile_component__["a" /* UserProfileComponent */] },
-    { path: 'table-list', component: __WEBPACK_IMPORTED_MODULE_6__table_list_table_list_component__["a" /* TableListComponent */] },
-    { path: 'typography', component: __WEBPACK_IMPORTED_MODULE_7__typography_typography_component__["a" /* TypographyComponent */] },
-    { path: 'icons', component: __WEBPACK_IMPORTED_MODULE_8__icons_icons_component__["a" /* IconsComponent */] },
-    { path: 'maps', component: __WEBPACK_IMPORTED_MODULE_9__maps_maps_component__["a" /* MapsComponent */] },
-    { path: 'notifications', component: __WEBPACK_IMPORTED_MODULE_10__notifications_notifications_component__["a" /* NotificationsComponent */] },
-    { path: 'upgrade', component: __WEBPACK_IMPORTED_MODULE_11__upgrade_upgrade_component__["a" /* UpgradeComponent */] },
+    { path: 'casadeamigos/dashboard', component: __WEBPACK_IMPORTED_MODULE_4__dashboard_dashboard_component__["a" /* DashboardComponent */] },
+    { path: 'casadeamigos/user-profile', component: __WEBPACK_IMPORTED_MODULE_5__user_profile_user_profile_component__["a" /* UserProfileComponent */] },
+    { path: 'casadeamigos/table-list', component: __WEBPACK_IMPORTED_MODULE_6__table_list_table_list_component__["a" /* TableListComponent */] },
+    { path: 'casadeamigos/typography', component: __WEBPACK_IMPORTED_MODULE_7__typography_typography_component__["a" /* TypographyComponent */] },
+    { path: 'casadeamigos/icons', component: __WEBPACK_IMPORTED_MODULE_8__icons_icons_component__["a" /* IconsComponent */] },
+    { path: 'casadeamigos/maps', component: __WEBPACK_IMPORTED_MODULE_9__maps_maps_component__["a" /* MapsComponent */] },
+    { path: 'casadeamigos/notifications', component: __WEBPACK_IMPORTED_MODULE_10__notifications_notifications_component__["a" /* NotificationsComponent */] },
+    { path: 'casadeamigos/upgrade', component: __WEBPACK_IMPORTED_MODULE_11__upgrade_upgrade_component__["a" /* UpgradeComponent */] },
     { path: 'casadeamigos', redirectTo: 'dashboard', pathMatch: 'full' }
 ];
 var AppRoutingModule = (function () {
@@ -567,14 +567,14 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 var ROUTES = [
-    { path: 'dashboard', title: 'Dashboard', icon: 'dashboard', class: '' },
-    { path: 'user-profile', title: 'User Profile', icon: 'person', class: '' },
-    { path: 'table-list', title: 'Table List', icon: 'content_paste', class: '' },
-    { path: 'typography', title: 'Typography', icon: 'library_books', class: '' },
-    { path: 'icons', title: 'Icons', icon: 'bubble_chart', class: '' },
-    { path: 'maps', title: 'Maps', icon: 'location_on', class: '' },
-    { path: 'notifications', title: 'Notifications', icon: 'notifications', class: '' },
-    { path: 'upgrade', title: 'Upgrade to PRO', icon: 'unarchive', class: 'active-pro' },
+    { path: 'casadeamigos/dashboard', title: 'Dashboard', icon: 'dashboard', class: '' },
+    { path: 'casadeamigos/user-profile', title: 'User Profile', icon: 'person', class: '' },
+    { path: 'casadeamigos/table-list', title: 'Table List', icon: 'content_paste', class: '' },
+    { path: 'casadeamigos/typography', title: 'Typography', icon: 'library_books', class: '' },
+    { path: 'casadeamigos/icons', title: 'Icons', icon: 'bubble_chart', class: '' },
+    { path: 'casadeamigos/maps', title: 'Maps', icon: 'location_on', class: '' },
+    { path: 'casadeamigos/notifications', title: 'Notifications', icon: 'notifications', class: '' },
+    { path: 'casadeamigos/upgrade', title: 'Upgrade to PRO', icon: 'unarchive', class: 'active-pro' },
 ];
 var SidebarComponent = (function () {
     function SidebarComponent() {
