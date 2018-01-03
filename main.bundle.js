@@ -268,15 +268,14 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 var routes = [
-    { path: 'casadeamigos/dashboard', component: __WEBPACK_IMPORTED_MODULE_4__dashboard_dashboard_component__["a" /* DashboardComponent */] },
+    { path: 'casadeamigos', component: __WEBPACK_IMPORTED_MODULE_4__dashboard_dashboard_component__["a" /* DashboardComponent */] },
     { path: 'casadeamigos/user-profile', component: __WEBPACK_IMPORTED_MODULE_5__user_profile_user_profile_component__["a" /* UserProfileComponent */] },
     { path: 'casadeamigos/table-list', component: __WEBPACK_IMPORTED_MODULE_6__table_list_table_list_component__["a" /* TableListComponent */] },
     { path: 'casadeamigos/typography', component: __WEBPACK_IMPORTED_MODULE_7__typography_typography_component__["a" /* TypographyComponent */] },
     { path: 'casadeamigos/icons', component: __WEBPACK_IMPORTED_MODULE_8__icons_icons_component__["a" /* IconsComponent */] },
     { path: 'casadeamigos/maps', component: __WEBPACK_IMPORTED_MODULE_9__maps_maps_component__["a" /* MapsComponent */] },
     { path: 'casadeamigos/notifications', component: __WEBPACK_IMPORTED_MODULE_10__notifications_notifications_component__["a" /* NotificationsComponent */] },
-    { path: 'casadeamigos/upgrade', component: __WEBPACK_IMPORTED_MODULE_11__upgrade_upgrade_component__["a" /* UpgradeComponent */] },
-    { path: 'casadeamigos', redirectTo: 'casadeamigos/dashboard', pathMatch: 'full' }
+    { path: 'casadeamigos/upgrade', component: __WEBPACK_IMPORTED_MODULE_11__upgrade_upgrade_component__["a" /* UpgradeComponent */] }
 ];
 var AppRoutingModule = (function () {
     function AppRoutingModule() {
@@ -567,7 +566,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 var ROUTES = [
-    { path: 'casadeamigos/dashboard', title: 'Dashboard', icon: 'dashboard', class: '' },
+    { path: 'casadeamigos', title: 'Dashboard', icon: 'dashboard', class: '' },
     { path: 'casadeamigos/user-profile', title: 'User Profile', icon: 'person', class: '' },
     { path: 'casadeamigos/table-list', title: 'Table List', icon: 'content_paste', class: '' },
     { path: 'casadeamigos/typography', title: 'Typography', icon: 'library_books', class: '' },
